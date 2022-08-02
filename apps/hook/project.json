@@ -48,7 +48,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "hook:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/hook/proxy.conf.json"
       },
       "configurations": {
         "development": {
